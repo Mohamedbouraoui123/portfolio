@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Technicien Informatique de Gestion</title>
+
+  <!-- Police -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#home">
+       <span class="brand__accent">Mohamed</span>&nbsp;Bouraoui
+      </a>
+
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu">
+        <a class="menu__link active" href="#home">Home</a>
+        <a class="menu__link" href="#about">About</a>
+        <a class="menu__link" href="#projects">Projects</a>
+        <a class="menu__link" href="#skills">Skills</a>
+        <a class="menu__link" href="#contact">Connect</a>
+      </nav>
+    </div>
+    <div class="nav__line"></div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="hero">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__vignette"></div>
+    </div>
+
+    <div class="container hero__inner">
+      <div class="hero__left">
+       <p class="hero__eyebrow" style="font-weight:bold;">Conçu pour vous</p>
+        <h1 class="hero__title">
+         <span class="accent">Support informatique</span>
+        </h1>
+
+        <p class="hero__text">
+          Titulaire d’un BTS en informatique de gestion, 
+          j’accompagne les utilisateurs (support), j’assure la maintenance et je contribue à l’amélioration des outils et processus. Je recherche un poste dans une équipe dynamique.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="assets/cv mohamed bouraoui 2025.pdf" download>
+            Télécharger CV
+          </a>
+          <a class="btn btn--ghost" href="#projects">
+            Projets
+          </a>
+        </div>
+
+        <div class="hero__badges">
+          <span class="badge">Support & Helpdesk</span>
+          <span class="badge">Windows / Linux</span>
+          <span class="badge">Réseaux</span>
+          <span class="badge">Développement Web</span>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="photoWrap">
+          <img class="photo" src="assets/mohamed.jpg" alt="Photo de profil" />
+        </div>
+        
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="scrollHint" href="#about" aria-label="Aller à À propos">
+      <span></span>
+    </a>
+  </main>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section__title">About me</h2>
+      <p class="section__lead">
+        Je suis un <span class="accent">Technicien Informatique de Gestion</span> motivé,
+        orienté solutions. J’aime diagnostiquer, documenter et améliorer les processus
+        (tickets, inventaire, sauvegardes, procédures) pour réduire les incidents.
+      </p>
+
+      <div class="cards3">
+        <article class="card">
+          <div class="card__icon">⚡</div>
+          <h3 class="card__title">Support & Dépannage</h3>
+          <p class="card__text">Diagnostic, résolution incidents, prise en main, procédures et suivi.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">🧩</div>
+          <h3 class="card__title">Gestion & Organisation</h3>
+          <p class="card__text">GLPI, inventaire, reporting, Excel, documentation et standardisation.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">📈</div>
+          <h3 class="card__title">Amélioration Continue</h3>
+          <p class="card__text">Automatisations simples, bonnes pratiques, sécurité de base, sauvegardes.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Projects</h2>
+      <div class="grid2">
+        <article class="project">
+          <h3 class="project__title">Mise en place GLPI + Process Tickets</h3>
+          <p class="project__text">
+            Création catégories, SLA, workflows, modèles de réponse et base de connaissances.
+          </p>
+          <div class="project__tags">
+            <span>GLPI</span><span>Helpdesk</span><span>Documentation</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3 class="project__title">Inventaire & Suivi Matériel</h3>
+          <p class="project__text">
+            Inventaire poste/écran/imprimante, étiquetage, suivi affectations, historique incidents.
+          </p>
+          <div class="project__tags">
+            <span>Inventaire</span><span>OCS</span><span>Excel</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3 class="project__title">Réseau – Plan d’adressage & Wi-Fi</h3>
+          <p class="project__text">
+            Segmentation basique, configuration routeur/switch, Wi-Fi invité, tests et supervision.
+          </p>
+          <div class="project__tags">
+            <span>Réseaux</span><span>VLAN</span><span>Wireshark</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3 class="project__title">Tableau de bord Excel (Gestion)</h3>
+          <p class="project__text">
+            Suivi incidents, temps de résolution, disponibilité, indicateurs mensuels.
+          </p>
+          <div class="project__tags">
+            <span>Excel</span><span>Reporting</span><span>KPI</span>
+          </div>
+        </article>
+
+        <article class="project">
+  <h3 class="project__title">Application Web CMS</h3>
+  <p class="project__text">
+    Gestion de contenus dynamiques, création et modification d’articles, gestion des utilisateurs et des permissions.
+  </p>
+  <div class="project__tags">
+    <span>HTML</span><span>CSS</html></span><span>Javascript</span>
+  </div>
+</article>
+      
+        <article class="project">
+  <h3 class="project__title">Application web Système de paiement</h3>
+  <p class="project__text">
+    Développement d’un système de paiement sécurisé, gestion des transactions,  génération de reçus et suivi de l’historique.
+  </p>
+  <div class="project__tags">
+    <span>HTML</span><span>CSS</html></span><span>Javascript</span>
+  </div>
+</article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section__title">Skills</h2>
+      <div class="skills">
+        <div class="skillBox">
+          <h3>Systèmes</h3>
+          <ul>
+            <li>Windows (installation, drivers, GPO basique)</li>
+            <li>Linux (commandes de base, services)</li>
+            <li>Active Directory (utilisateurs/groupes – notions)</li>
+          </ul>
+        </div>
+
+        <div class="skillBox">
+          <h3>Réseaux</h3>
+          <ul>
+            <li>IP / DNS / DHCP (notions + tests)</li>
+            <li>Switch / Routeur (config basique)</li>
+            <li>Wireshark, ping, tracert</li>
+          </ul>
+        </div>
+
+        <div class="skillBox">
+          <h3>Gestion & Outils</h3>
+          <ul>
+            <li>GLPI / Helpdesk, base de connaissances</li>
+            <li>Inventaire (OCS / manuel)</li>
+            <li>Excel (tableaux, filtres, KPI)</li>
+          </ul>
+        </div>
+
+        <div class="skillBox">
+          <h3>Sécurité</h3>
+          <ul>
+            <li>Bonnes pratiques (mots de passe, MAJ)</li>
+            <li>Sauvegardes (principe 3-2-1)</li>
+            <li>Antivirus / EDR (notions)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Connect</h2>
+      <p class="section__lead">
+        Tu peux me contacter par email ou via mes réseaux.
+      </p>
+
+      <div class="contact">
+        <div class="contact__card">
+          <h3>Coordonnées</h3>
+          <p><strong>Email :</strong> <a href="mailto:tonemail@gmail.com">Mohamedbouraoui122@gmail.com.</a></p>
+          <p><strong>Téléphone :</strong> +216 56 809 125</p>
+          <p><strong>Ville :</strong> Tunis, Tunisie</p>
+
+          <div class="socials">
+            <a class="social" href="https://github.com/Mohamedbouraoui123" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="social" href="https://www.linkedin.com/in/mohamed-bouraoui-428768319/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="contact__form"
+      action="https://formspree.io/f/xojazeqe"
+      method="POST">
+  <h3>Message</h3>
+
+  <label>
+    Nom
+    <input type="text" name="nom" placeholder="Votre nom" required />
+  </label>
+
+  <label>
+    Email
+    <input type="email" name="email" placeholder="Votre email" required />
+  </label>
+
+  <label>
+    Message
+    <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+  </label>
+
+  <button class="btn btn--primary" type="submit">
+    Envoyer
+  </button>
+
+</form>
+      </div> <!-- /.contact -->
+    </div> <!-- /.container -->
+  </section> <!-- /#contact -->
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Mohamed bouraoui — Technicien Informatique de Gestion</p>
+      <a class="backTop" href="#home">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
